@@ -1,37 +1,37 @@
 body{
-    width:100vw;
 }
 
 .name{
-    font-size: 2.5rem;
+    font-size: 2rem;
     color:aqua;
 }
 
 .title{
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     color:white;
 }
 
 .photo-description-container{
     height: auto;
-    min-height:10vh;
+    width:95vw;
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
-    margin:30px;
+    padding-left:2vw;
+    padding-right:2vw;
+    background-color: lightpink;
 }
 
 .description{
+    background-color:blue;
     height: auto;
-    min-height:10vh;
-    max-width:700px;
+    max-width:50%;
     display: grid;
     grid-template-rows:auto auto auto auto auto;
     align-items: center;
-    row-gap: 5px;
-    padding:30px;
-    margin-right: 30px;
+    row-gap: 5%;
+    padding:3%;
+    margin-right: 5%;
     border-radius: 50px;
     border:2px solid aqua;
 }
@@ -57,12 +57,12 @@ body{
     justify-self: start;
     align-items: center;
     cursor:pointer;
-    border-radius: 60px;
+    border-radius: 20px;
     width: auto;
-    padding-left:10px;
-    padding-right: 10px;
+    padding-left:1%;
+    padding-right: 1%;
     font-weight: 0.8;
-    margin-bottom:10px;
+    margin-bottom:1%;
 }
 .download-resume-button:hover{
      background-color:rgb(14, 103, 14);
@@ -74,11 +74,11 @@ body{
     cursor:pointer;
     border-radius: 60px;
     width: auto;
-    padding-left:10px;
-    padding-right: 10px;
+    padding-left:1%;
+    padding-right: 1%;
     font-weight: 0.8;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
-    margin-bottom: 10px;
+    box-shadow: 0.05% 0.05% 1% rgba(0,0,0,0.5);
+    margin-bottom: 1%;
 }
 
 .download-icon{
@@ -123,17 +123,17 @@ body{
     margin-bottom: 10px;
 }
 
-.photo-div{
-     height: 300px;
-    width:300px;
-}
+/* .photo-div{
+     height: 50%
+    width:50%;
+} */
 
 .owner-photo{
-    height: 300px;
-    width: 300px;
+    height: 50%;
+    width: 50%;
     object-fit: cover;
     border:2px white solid;
-    border-radius: 250px;
+    border-radius: 50%;
 }
 
 

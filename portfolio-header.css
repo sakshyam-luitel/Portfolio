@@ -14,10 +14,13 @@
     padding-left:2vw;
     padding-right: 2vw;
     color:white;
+    width: 95vw;
+    background-color: lightblue;
+    margin-bottom: 2vh;
 }
 
 .left-section{
-   font-size: 1.5rem;
+   font-size: 1.2rem;
 }
 
 .right-section{
@@ -26,6 +29,7 @@
     justify-content: space-between;
     width: auto;
     min-width: 40vw;
+    font-size:0.9rem;
 }
 
 .nav-buttons{
