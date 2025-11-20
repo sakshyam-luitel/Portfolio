@@ -1,0 +1,172 @@
+body{
+    width:100vw;
+}
+
+.name{
+    font-size: 2.5rem;
+    color:aqua;
+}
+
+.title{
+    font-size: 1.9rem;
+    color:white;
+}
+
+.photo-description-container{
+    height: auto;
+    min-height:10vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin:30px;
+}
+
+.description{
+    height: auto;
+    min-height:10vh;
+    max-width:700px;
+    display: grid;
+    grid-template-rows:auto auto auto auto auto;
+    align-items: center;
+    row-gap: 5px;
+    padding:30px;
+    margin-right: 30px;
+    border-radius: 50px;
+    border:2px solid aqua;
+}
+
+/* .myself{
+    font-size: 50px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    color:aqua;
+
+} */
+
+.description-button-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.download-resume-button{
+    background-color:green;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-self: start;
+    align-items: center;
+    cursor:pointer;
+    border-radius: 60px;
+    width: auto;
+    padding-left:10px;
+    padding-right: 10px;
+    font-weight: 0.8;
+    margin-bottom:10px;
+}
+.download-resume-button:hover{
+     background-color:rgb(14, 103, 14);
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-self: start;
+    align-items: center;
+    cursor:pointer;
+    border-radius: 60px;
+    width: auto;
+    padding-left:10px;
+    padding-right: 10px;
+    font-weight: 0.8;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    margin-bottom: 10px;
+}
+
+.download-icon{
+    width:30px;
+    margin-left:5px;
+    padding:3px;
+    background-color: white;
+    background-color: transparent;
+}
+
+.view-project-button{
+    color:blue;
+    display: flex;
+    flex-direction: row;
+    justify-self: start;
+    align-items: center;
+    cursor:pointer;
+    border-radius: 10px;
+    width: auto;
+    padding-left:10px;
+    padding-right: 10px;
+    font-weight: 0.8;
+    margin-left:10px;
+    margin-bottom:10px;
+    border:2px solid blue;
+}
+
+.view-project-button:hover{
+    border:2px solid transparent;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-self: start;
+    align-items: center;
+    cursor:pointer;
+    border-radius: 60px;
+    width: auto;
+    padding-left:10px;
+    padding-right: 10px;
+    font-weight: 0.8;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    margin-bottom: 10px;
+}
+
+.photo-div{
+     height: 300px;
+    width:300px;
+}
+
+.owner-photo{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border:2px white solid;
+    border-radius: 250px;
+}
+
+
+.project-description-container{
+    
+}
+
+.projects-header{   
+    font-size:50px;
+    text-align: center;
+    margin:30px;
+}
+
+.project-container{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.projects{
+    background-color: white;
+    height:50px;
+    width:200px;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    border-radius: 30px;
+    border:2px solid aqua;
+}
+
+a{
+    color:rgb(13, 86, 86);
+}
+

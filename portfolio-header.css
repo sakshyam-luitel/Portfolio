@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+
+.nav-bar-container{
+    display:flex;
+    justify-content: space-between;
+    height:10vh;
+    align-items: center;
+    padding-left:2vw;
+    padding-right: 2vw;
+    color:white;
+}
+
+.left-section{
+   font-size: 1.5rem;
+}
+
+.right-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+    min-width: 40vw;
+}
+
+.nav-buttons{
+    cursor: pointer;
+}
+
