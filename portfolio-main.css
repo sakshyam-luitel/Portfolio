@@ -35,6 +35,11 @@ body{
     padding-bottom: 5%;
 }
 
+.short-description{
+    font-size:1.2vw;
+    color:white;
+}
+
 /* .myself{
     font-size: 50px;
     padding-top:20px;
@@ -62,6 +67,7 @@ body{
     padding-right: 1%;
     font-weight: 0.8;
     margin-bottom:1%;
+    font-size:1.2vw;
 }
 .download-resume-button:hover{
      background-color:rgb(14, 103, 14);
@@ -78,12 +84,13 @@ body{
     font-weight: 0.8;
     box-shadow: 0.05% 0.05% 1% rgba(0,0,0,0.5);
     margin-bottom: 1%;
+    font-size:1.2vw;
 }
 
 .download-icon{
-    width:30px;
-    margin-left:5px;
-    padding:3px;
+    width:1.5vw;
+    margin-left:0.5vw;
+    padding:0.3vw;
     background-color: white;
     background-color: transparent;
 }
@@ -97,12 +104,13 @@ body{
     cursor:pointer;
     border-radius: 10px;
     width: auto;
-    padding-left:10px;
-    padding-right: 10px;
+    padding-left:0.6vw;
+    padding-right: 0.6vw;
     font-weight: 0.8;
-    margin-left:10px;
-    margin-bottom:10px;
+    margin-left:0.6vw;
+    margin-bottom:0.6vw;
     border:2px solid blue;
+    font-size:1.2vw;
 }
 
 .view-project-button:hover{
@@ -115,11 +123,12 @@ body{
     cursor:pointer;
     border-radius: 60px;
     width: auto;
-    padding-left:10px;
-    padding-right: 10px;
+    padding-left:0.6vw;
+    padding-right: 0.6vw;
     font-weight: 0.8;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
-    margin-bottom: 10px;
+    margin-bottom: 0.6vw;
+    font-size:1.2vw;
 }
 
 /* .photo-div{
