@@ -15,10 +15,17 @@ body{
     height: auto;
     width:95vw;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     padding-left:2vw;
     padding-right:2vw;
+}
+
+@media(max-width:768px){
+    .photo-description-container{
+        flex-direction: column;
+        row-gap: 5vh;
+    }
 }
 
 .description{
@@ -83,7 +90,7 @@ body{
     padding-left:1%;
     padding-right: 1%;
     font-weight: 0.8;
-    box-shadow: 0.05% 0.05% 1% rgba(0,0,0,0.5);
+    box-shadow: 0.05% 0.05% 1% rgba(222, 220, 220, 0.5);
     margin-bottom: 1%;
     font-size:1.2vw;
 }
@@ -127,7 +134,7 @@ body{
     padding-left:0.6vw;
     padding-right: 0.6vw;
     font-weight: 0.8;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 10px rgba(255,255,255,0.5);
     margin-bottom: 0.6vw;
     font-size:1.2vw;
 }
@@ -143,6 +150,7 @@ body{
     object-fit: cover;
     border:2px white solid;
     border-radius: 50%;
+    margin-left:7vw;
 }
 
 
