@@ -28,10 +28,12 @@
     justify-content: space-between;
     width: auto;
     min-width: 40vw;
-    font-size:1.2vw;
+    font-size:1.5vw;
 }
 
 .nav-buttons{
     cursor: pointer;
 }
+
+
 
