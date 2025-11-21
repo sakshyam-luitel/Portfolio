@@ -18,11 +18,11 @@
     margin-bottom: 2vh;
 }
 
-@media(max-width:480px){
+@media(max-width:550px){
     .nav-bar-container{
         display:flex;
         flex-direction: column;
-        row-gap: 2vh;
+        max-height:5vh;
     }
 
     .left-section{
@@ -31,7 +31,7 @@
 
     .right-section{
         display:flex;
-        justify-content: space-between;
+        align-items: space-around;
         font-size:1.6vw;
         width:90vw;
     }
