@@ -1,6 +1,6 @@
  body {
   background: #0a0018;
-  min-height: 100vh;
+  min-height: 100dvh;
   position: relative;
   overflow-x: hidden;
 }

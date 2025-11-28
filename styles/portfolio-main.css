@@ -1,43 +1,43 @@
-body{
+html{
+    font-size:13px;
 }
-
 .name{
-    font-size: 3vw;
+    font-size: 2rem;
     color:aqua;
 }
 
 .title{
-    font-size: 2vw;
+    font-size: 2rem;
     color:white;
 }
 
 .photo-description-container{
+    width:100vw;
     height: auto;
-    width:95vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding-left:2vw;
-    padding-right:2vw;
+    /* margin-left:2dvw;
+    margin-right:2dvw; */
+    /* background-color: lightblue; */
 }
 
+
+
 .description{
+    width:62%;
     height: auto;
-    min-width:50vw;
-    width: auto;
     display: grid;
     grid-template-rows:auto auto auto auto auto;
     align-items: center;
     row-gap: 5%;
-    padding:3%;
-    margin-right: 5%;
-    border-radius: 50px;
-    border:2px solid aqua;
-    padding-bottom: 5%;
+    padding-right: 2%;
+    padding-left: 2%;
+    /* background-color: lightcoral; */
 }
 
 .short-description{
-    font-size:1.2vw;
+    font-size:1.2rem;
     color:white;
 }
 
@@ -68,7 +68,7 @@ body{
     padding-right: 1%;
     font-weight: 0.8;
     margin-bottom:1%;
-    font-size:1.2vw;
+    font-size:1.1rem;
 }
 .download-resume-button:hover{
      background-color:rgb(14, 103, 14);
@@ -85,7 +85,7 @@ body{
     font-weight: 0.8;
     box-shadow: 0.05% 0.05% 1% rgba(222, 220, 220, 0.5);
     margin-bottom: 1%;
-    font-size:1.2vw;
+    font-size:1.1rem;
 }
 
 .download-icon{
@@ -111,7 +111,7 @@ body{
     margin-left:0.6vw;
     margin-bottom:0.6vw;
     border:2px solid blue;
-    font-size:1.2vw;
+    font-size:1.1rem;
 }
 
 .view-project-button:hover{
@@ -129,21 +129,22 @@ body{
     font-weight: 0.8;
     box-shadow: 5px 5px 10px rgba(255,255,255,0.5);
     margin-bottom: 0.6vw;
-    font-size:1.2vw;
+    font-size:1.1rem;
 }
 
-/* .photo-div{
-     height: 50%
-    width:50%;
-} */
+.photo-div{
+    height: auto;
+    width: 34%;
+    padding-left:7%;
+    /* background-color: red; */
+}
 
 .owner-photo{
-    height: 50%;
-    width: 50%;
+    width:80%;
+    height: auto;
     object-fit: cover;
     border:2px white solid;
     border-radius: 50%;
-    margin-left:7vw;
 }
 
 
@@ -152,7 +153,7 @@ body{
 }
 
 .projects-header{   
-    font-size:50px;
+    font-size:3.1rem;
     text-align: center;
     margin:30px;
 }
@@ -179,4 +180,63 @@ body{
 a{
     color:rgb(13, 86, 86);
 }
+
+@media(max-width:900px){
+    html{
+        font-size:10px;
+    }
+}
+
+@media(max-width:600px)
+{
+    body{
+        width: 100dvw;
+        height: 100dvh;
+    }
+    html{
+        font-size:10px;
+    }
+
+    .photo-description-container{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .description{
+        width: 96%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .photo-div{
+        width: 50%;
+    }
+}
+
+
+@media(max-width:480px)
+{
+    html{
+        font-size:13px;
+    }
+
+    body{
+        height: 100dvh;
+        width: 100dvh;
+    }
+
+    .photo-description-container{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .photo-div{
+        width:80%;
+    }
+    .description{
+        width: 96%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+
 
