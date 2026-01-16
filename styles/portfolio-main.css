@@ -235,9 +235,9 @@ a{
         width:80%;
     }
     .description{
-        width: 96%;
         padding-left: 2%;
         padding-right: 2%;
+        background-color: black;
     }
 }
 
