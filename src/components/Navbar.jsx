@@ -13,7 +13,7 @@ function Navbar(){
         <nav className=" border-b-1 border-red-600 mb-4">
             <div className="flex justify-between my-2 md:my-4 mx-2 md:mx-4  items-center">
                 <div>
-                    <p className="text-2xl">Portfolio Website</p>
+                    <Link to ="/" ><p className="text-2xl">Portfolio Website</p></Link>
                 </div>
 
                 
