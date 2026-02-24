@@ -7,11 +7,11 @@ const Image = () => {
     const imageString = useContext(CardContext)
   return (
     <>
-        <div>
+        <div className="object-contain">
         <img
           src={imageString}
           alt=""
-          className="h-65 w-60 lg:w-70 object-cover m-4"
+          className="rounded-2xl h-70 my-1"
         />
       </div>
     </>
