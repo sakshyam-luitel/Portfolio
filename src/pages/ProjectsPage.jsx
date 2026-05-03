@@ -35,7 +35,7 @@ function ProjectsPage() {
           <CardContext.Provider value = "chatbot.PNG">
           <Card
             projectName="Chatbot"
-            projectDescription="A Chatbot using React and OpenAI API"
+            projectDescription="A Chatbot using React and LLAMA"
             projectLink= "https://chatbot-rho-two-97.vercel.app/"
           />
           </CardContext.Provider>
