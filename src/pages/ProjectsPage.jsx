@@ -19,7 +19,8 @@ function ProjectsPage() {
         <div className="flex justify-center md:justify-between items-center absolute top-30 md:top-35 flex-wrap md:mx-4">
           <Card
             projectName="Ecommerce Website"
-            projectDescription="Basic CRUD Ecommerce Website using Javascript and Django"
+            projectDescription="Basic CRUD Ecommerce Website using HTML CSS Javascript and Django"
+            projectLink="https://amazon-clone-ofwr.onrender.com/"
           />
           <Card
             projectName="Diet Recommendation System"
