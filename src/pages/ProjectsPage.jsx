@@ -17,11 +17,13 @@ function ProjectsPage() {
           </span>
         </div>
         <div className="flex justify-center md:justify-between items-center absolute top-30 md:top-35 flex-wrap md:mx-4">
-          <Card
+          <CardContext value= "amazon_clone.PNG">
+            <Card
             projectName="Ecommerce Website"
             projectDescription="Basic CRUD Ecommerce Website using HTML CSS Javascript and Django"
             projectLink="https://amazon-clone-ofwr.onrender.com/"
           />
+          </CardContext>
           <Card
             projectName="Diet Recommendation System"
             projectDescription="Diet Recommendation System For Diseased as well as Healthy People"
