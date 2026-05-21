@@ -5,9 +5,7 @@ import ListItem from "./ListItem"
 
 function Navbar(){
     const [isVisible , setIsVisible] = useState(false)
-    const [isDarkMode, setIsDarkMode] = useState(() => {
-        return document.documentElement.classList.contains("dark")
-    })
+    const [isDarkMode, setIsDarkMode] = useState(true)
 
     useEffect(() => {
         if (isDarkMode) {
@@ -35,7 +33,7 @@ function Navbar(){
                 
 
                 <ul className="hidden lg:flex justify-around w-full max-w-2xl mx-4 hover:cursor-pointer text-slate-700 dark:text-slate-300 font-bold text-lg">
-                    <ListItem name = "About" />
+                    {/* <ListItem name = "About" /> */}
                     <ListItem name = "Skills" />
                     <ListItem name = "Experience" />
                     <ListItem name = "Education"/>
@@ -51,7 +49,7 @@ function Navbar(){
 
                 <ul className={`fixed top-0 right-0 z-999 h-dvh w-full ${!isVisible?'hidden':'flex' } lg:hidden flex-col gap-10 items-start justify-start hover:cursor-pointer text-slate-700 dark:text-slate-300 font-bold bg-slate-50/95 dark:bg-slate-900/95 backdrop-blur-xl transition-colors duration-300`}>
                     <li className="w-100% mt-2 hover:bg-indigo-100 dark:hover:bg-slate-800 text-indigo-600 dark:text-indigo-400 px-5 py-2 rounded-2xl" onClick ={showDropdown}><X/></li>
-                    <ListItem name = "About"/>
+                    {/* <ListItem name = "About"/> */}
                     <ListItem name = "Skills"/>
                     <ListItem name = "Experience"/>
                     <ListItem name = "Education"/>

@@ -1,0 +1,29 @@
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import { Briefcase } from "lucide-react";
+
+function Experience(){
+    return(
+        <>
+            <Navbar/>
+            <main className="bg-slate-50 dark:bg-slate-900 min-h-screen py-10 transition-colors duration-300">
+                <div className="max-w-4xl mx-auto px-4 md:px-8 h-[60vh] flex flex-col justify-center items-center">
+                    <div className="bg-white dark:bg-slate-800 p-10 md:p-16 rounded-3xl border-4 border-indigo-100 dark:border-indigo-900/60 shadow-xl flex flex-col items-center text-center">
+                        <div className="bg-indigo-100 dark:bg-indigo-900/40 p-6 rounded-full mb-6 text-indigo-600 dark:text-indigo-400">
+                            <Briefcase size={64} />
+                        </div>
+                        <h2 className="text-3xl md:text-5xl font-extrabold text-indigo-700 dark:text-indigo-300 tracking-tight mb-4">
+                            Experience
+                        </h2>
+                        <p className="text-xl md:text-2xl text-slate-600 dark:text-slate-400 font-medium">
+                            Currently I have no formal work experience, but I am actively seeking opportunities to apply my skills.
+                        </p>
+                    </div>
+                </div>
+            </main>
+            <Footer/>
+        </>
+    )
+}
+
+export default Experience
