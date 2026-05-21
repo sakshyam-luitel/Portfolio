@@ -10,24 +10,24 @@ function ProjectsPage() {
   return (
     <>
       <Navbar />
-      <main>
-        <div className="text-center">
-          <span className="text-2xl text-center border-b-1 border-cyan-500">
+      <main className="bg-slate-50 dark:bg-slate-900 min-h-screen pb-12 transition-colors duration-300">
+        <div className="text-center pt-8 md:pt-12 mb-12">
+          <span className="text-4xl font-extrabold text-indigo-600 dark:text-indigo-400 border-b-4 border-indigo-600 dark:border-indigo-400 pb-2 tracking-tight">
             Projects
           </span>
         </div>
-        <div className="flex justify-center md:justify-between items-center absolute top-30 md:top-35 flex-wrap md:mx-4">
-          <CardContext value= "amazon_clone.PNG">
+        <div className="flex justify-center md:justify-center gap-10 items-start flex-wrap md:mx-4">
+          <CardContext value= "ecommerce.PNG">
             <Card
             projectName="Ecommerce Website"
             projectDescription="Basic CRUD Ecommerce Website using HTML CSS Javascript and Django"
             projectLink="https://amazon-clone-ofwr.onrender.com/"
           />
           </CardContext>
-          <Card
+          {/* <Card
             projectName="Diet Recommendation System"
             projectDescription="Diet Recommendation System For Diseased as well as Healthy People"
-          />
+          /> */}
           <CardContext value="rps.jfif">
             <Card
               projectName="Rock Paper Scissors"
@@ -44,7 +44,7 @@ function ProjectsPage() {
           </CardContext.Provider>
         </div>
       </main>
-      {/* <Footer/> */}
+      <Footer/>
     </>
   );
 }

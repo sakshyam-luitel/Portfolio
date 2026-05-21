@@ -11,7 +11,7 @@ const Image = () => {
         <img
           src={imageString}
           alt=""
-          className="rounded-2xl h-70 my-1"
+          className="rounded-2xl h-70 my-1 object-contain"
         />
       </div>
     </>
